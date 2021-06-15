@@ -1,0 +1,418 @@
+/* Default CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Head CSS */
+.head{
+    background-color: #1164d1;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.h-c{
+    display: flex;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.h-c .title{
+    width: 33%;
+}
+.h-c .title a{
+    text-align: center;
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 31px;
+    font-family: 'Lobster', cursive;
+}
+.h-c .menu{
+    width: 33%;
+    line-height: 50px;
+    text-align: center;
+}
+
+.h-c .menu ul{
+    list-style-type: none;
+}
+.h-c .menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.h-c .menu ul li a{
+    display: block;
+    padding: 10px 23px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.h-c .menu ul li a:hover{
+    background-color: #00a8ff;
+}
+
+/* Dropdown Menu CSS */
+.h-c .menu ul li ul{
+    position: absolute;
+    background-color: #1164d1;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    transform-origin: top center;
+    transform: scaleY(0);
+}
+.h-c .menu ul li ul li{
+    display: block;
+    width: 300px;
+    line-height: 20px;
+}
+.h-c .menu ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+.h-c .reg{
+    width: 33%;
+    text-align: center;
+}
+.h-c .reg a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid blue;
+    background-color: #00a8ff;
+    color: black;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+.h-c .reg a:hover{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+
+/* Banner CSS */
+.banner{
+    background-image: url(./banner.png);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 180px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.banner h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 10px;
+}
+.banner p{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+}
+.btn{
+    text-align: center;
+}
+.btn a{
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border: 2px solid blue;
+    background: blue;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn a:hover{
+    color: blue;
+    background: white;
+    border: 2px solid blue;
+}
+
+/* about me CSS */
+.about{
+    background: #ecf0f1;
+}
+.a-c{
+    display: flex;
+    padding: 22px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.a-h{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.a-h h1{
+    font-size: 37px;
+}
+.a-c .left{
+    width: 40%;
+    text-align: center;
+}
+.a-c .left img{
+    width: 50%;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.a-c .left img:hover{
+    transform: scale(1.1);
+}
+.a-c .right{
+    width: 50%;
+}
+.a-c .right h1{
+    margin-top: 30px;
+    text-decoration: underline;
+}
+.a-c .right p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.a-c .right ul{
+    list-style-type: none;
+    text-align: center;
+}
+.a-c .right ul li{
+    display: inline-block;
+}
+.a-c .right ul li a{
+    display: inline-block;
+    text-decoration: none;
+    height: 20px;
+    width: 20px;
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #22a6b3;
+    border-radius: 50%;
+    border: 1px solid #22a6b3;
+    transition: 0.5s;
+    line-height: 14px;
+}
+.a-c .right ul li a:hover{
+    background-color: white;
+    color: #22a6b3;
+}
+
+/* My skill CSS */
+.skill{
+    background-color: #686de0;
+}
+
+
+.s-head{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.s-c{
+    display: flex;
+    position: relative;
+    padding: 30px 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.s-box{
+    width: 34.1%;
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 5px 10px 8px 10px #29212121;
+}
+.s-c .icon{
+    text-align: center;
+}
+.s-box .icon i{
+    text-align: center;
+    font-size: 115px;
+    background-color: #1164d1;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.s-box .des{
+    text-align: center;
+    margin-top: 30px;
+}
+.s-box .des h2{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.s-box .des p{
+    font-size: 20px;
+}
+.s-box:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Pricing CSS */
+.pricing{
+    padding: 30px 20px;
+    background-color: #f0932b;
+}
+.p-h{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 30px;
+}
+.p-c{
+    display: flex;
+    position: relative;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.p-box{
+    width: 33.1%;
+    height: 377px;
+    background-color: #ecf0f1;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px 10px #29212121;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.p-box .title h2{
+    font-size: 60px;
+    color: #1164d1;
+    border-radius: 10px 10px 0px 0px;
+    transition: 0.5s;
+}
+
+.p-box .price{
+    padding: 30px 0;
+}
+.p-box .price p{
+    font-size: 82px;
+}
+
+.p-box .price span{
+    font-size: 25px;
+}
+
+.p-box .list{
+    padding-bottom: 30px;
+}
+.p-box .list ul{
+    list-style-type: none;
+}
+
+.p-box .list ul li{
+    font-size: 20px;
+}
+
+.p-box:hover{
+    transform: scale(1.05);
+}
+.p-box:hover .title h2{
+    color: white;
+    background-color: #1164d1;
+}
+
+
+/* Contact CSS */
+
+.contact{
+    background-color: #1e272e;
+    color: white;
+}
+.c-c{
+    display: flex;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.c-c .left{
+    width: 60%;
+    text-align: left;
+}
+.c-c .right{
+    width: 30%;
+}
+
+.c-c .left h1{
+    padding: 30px 0px;
+}
+.c-c .left p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.c-c .left a{
+    text-decoration: none;
+    color: white;
+}
+.c-c .right h1{
+    padding: 30px 0px;
+}
+.c-c .right iframe{
+    margin-bottom: 20px;
+}
+
+/* Footer css */
+
+.footer{
+    background-color: #1e272e;
+}
+
+.f-c{
+    display: flex;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.f-c .left{
+    width: 60%;
+}
+.f-c .left p{
+    line-height: 43px;
+}
+.f-c .right{
+    width: 40%;
+}
+.f-c .right ul{
+    list-style-type: none;
+}
+.f-c .right ul li{
+    display: inline-block;
+}
+.f-c .right ul li a{
+    display: block;
+    padding: 10px 13px;
+    margin-right: 20px;
+    color: white;
+    border: 2px solid #1e272e;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.f-c .right ul li a:hover{
+    color: #1e272e;
+    background-color: white;
+    border: 2px solid #1e272e;
+}
