@@ -81,6 +81,9 @@
     opacity: 1;
     transform: scaleY(1);
 }
+
+
+
 .h-c .reg{
     width: 33%;
     text-align: center;
@@ -111,6 +114,7 @@
     background-size: cover;
     padding: 180px;
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
 .banner h1{
     font-size: 60px;
@@ -217,11 +221,11 @@
     background-color: #686de0;
 }
 
-
 .s-head{
     text-align: center;
     padding: 30px;
     font-family: 'Ubuntu', sans-serif;
+    color: white;
 }
 
 .s-c{
@@ -237,7 +241,7 @@
     margin-right: 20px;
     margin-left: 20px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 6px;
     transition: 0.5s;
     box-shadow: 5px 10px 8px 10px #29212121;
 }
@@ -273,12 +277,13 @@
 /* Pricing CSS */
 .pricing{
     padding: 30px 20px;
-    background-color: #f0932b;
+    background-color: #2C3A47;
 }
 .p-h{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     margin-bottom: 30px;
+    color: white;
 }
 .p-c{
     display: flex;
@@ -292,7 +297,7 @@
     background-color: #ecf0f1;
     margin-right: 20px;
     margin-left: 20px;
-    border-radius: 10px;
+    border-radius: 6px;
     box-shadow: 5px 10px 8px 10px #29212121;
     cursor: pointer;
     transition: 0.5s;
@@ -301,7 +306,7 @@
 .p-box .title h2{
     font-size: 60px;
     color: #1164d1;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 6px 6px 0px 0px;
     transition: 0.5s;
 }
 
