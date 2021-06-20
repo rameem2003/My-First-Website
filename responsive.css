@@ -1,0 +1,119 @@
+@media screen and (max-width: 420px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0 0;
+    }
+    
+    /* Head */
+    .h-c .title{
+        width: 50%;
+    }
+    .h-c .reg{
+        width: 50%;
+    }
+    .h-c .menu{
+        display: none;
+    }
+
+    /* Banner */
+    .banner{
+        width: 100%;
+        margin-top: 64px;
+        background-size: cover;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .banner .btn a{
+        width: 120px;
+    }
+
+    /* About */
+    .about{
+        width: 100%;
+    }
+    .a-c{
+        display: block;
+        width: 100%;
+    }
+    .a-c .left{
+        width: 100%;
+        pointer-events: none;
+    }
+    .a-c .right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .a-c .right p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .a-c .right ul li:first-child{
+        margin-left: 22px;
+    }
+
+
+    /* Skill */
+    .s-c{
+        display: block;
+    }
+
+    .s-c .s-box{
+        width: 81%;
+        margin-bottom: 20px;
+        transform: none;
+    }
+
+    /* Pricing */
+    .p-c{
+        display: block;
+        text-align: center;
+    }
+    .p-c .p-box{
+        width: 95%;
+        margin-bottom: 15px;
+        margin-left: 12px;
+        height: auto;
+        transform: none;
+    }
+
+    /* Contact */
+    .c-c{
+        display: block;
+        text-align: center;
+    }
+    .c-c .left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .c-c .right{
+        width: 100%;
+    }
+
+    /* Footer */
+
+    .f-c{
+        display: block;
+    }
+
+    .f-c .left{
+        width: 100%;
+        text-align: center;
+    }
+    .f-c .left p{
+        font-size: 13px;
+        display: block;
+    }
+
+    .f-c .right{
+        display: none;
+    }
+}
