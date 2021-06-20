@@ -14,8 +14,10 @@
 .head{
     background-color: #1164d1;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 9;
 }
 .h-c{
     display: flex;
@@ -83,28 +85,27 @@
 }
 
 
-
 .h-c .reg{
     width: 33%;
     text-align: center;
 }
 .h-c .reg a{
-    color: white;
     display: inline-block;
     text-decoration: none;
     padding: 10px;
-    border: 2px solid blue;
-    background-color: #00a8ff;
-    color: black;
+    border: 2px solid #d35400;
+    background-color: #d35400;
+    color: white;
     font-size: 20px;
     border-radius: 8px;
     margin-top: 15px;
     transition: 0.5s;
+    line-height: 15px;
 }
 .h-c .reg a:hover{
     background-color: white;
-    color: blue;
-    border: 2px solid blue;
+    color: #d35400;
+    border: 2px solid #d35400;
 }
 
 /* Banner CSS */
@@ -112,9 +113,11 @@
     background-image: url(./banner.png);
     background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
     padding: 180px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
+    margin-top: 70px;
 }
 .banner h1{
     font-size: 60px;
@@ -137,15 +140,15 @@
     text-decoration: none;
     font-size: 18px;
     color: white;
-    border: 2px solid blue;
-    background: blue;
+    border: 2px solid #d35400;
+    background: #d35400;
     border-radius: 10px;
     transition: 0.5s;
 }
 .btn a:hover{
-    color: blue;
+    color: #d35400;
     background: white;
-    border: 2px solid blue;
+    border: 2px solid #d35400;
 }
 
 /* about me CSS */
@@ -171,7 +174,7 @@
 }
 .a-c .left img{
     width: 50%;
-    margin-top: 50px;
+    margin-top: 30px;
     transition: 0.5s;
 }
 .a-c .left img:hover{
@@ -292,7 +295,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 .p-box{
-    width: 33.1%;
+    width: 34.1%;
     height: 377px;
     background-color: #ecf0f1;
     margin-right: 20px;
